@@ -1,1 +1,6 @@
-# Solution to Prelab Q3
+name =input("Enter your name")
+surname = input("Enter your surname")
+age = int(input("Enter your age"))
+marriage = input("Are you married")
+income = int(input("What is your monthly income"))
+print("name is a", type(name),"surname is a", type(surname),"age is a", type(age),"The answer to marriage is a", type(marriage),"income is a", type(income))
